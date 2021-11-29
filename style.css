@@ -130,11 +130,16 @@ h1 {
         padding-top: 0px;
     }
     .descricao {
-        width: 80%;
-        padding: 25px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
     }
     .descricao-p {
-        width: 74%;
+        padding: 0px;
+        font-size: 1.3em;
     }
     .dadosdocliente {
         display: flex;
@@ -171,8 +176,14 @@ h1 {
     }
 }
 
-@media (min-width:600px) and (max-width:1048px) {
+@media (min-width:600px) and (max-width:1200px) {
     h1 {
         font-size: 1rem;
+    }
+    .box-container {
+        width: 85%;
+    }
+    .descricao {
+        width: 65%;
     }
 }
