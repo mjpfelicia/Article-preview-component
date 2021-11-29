@@ -18,15 +18,11 @@
     main {
         height: 100vh;
         background: var(--cor-azul-acinzentado-claro);
+        padding: 25px;
     }
     
     .box-img-principal img {
         width: 100%;
-    }
-    
-    .box-container {
-        border-radius: 10px;
-        margin: 30px;
     }
     
     h1 {
@@ -156,5 +152,11 @@
         }
         .icons img {
             display: none;
+        }
+    }
+    
+    @media (min-width:600px) and (max-width:1048px) {
+        h1 {
+            font-size: 1rem;
         }
     }
