@@ -89,12 +89,12 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 70px;
-    width: 86%;
+    width: 100%;
     gap: 20px;
     border-radius: 0px 0px 10px 10px;
     background: var(--cor-azula-cinzentado-muito-escuro);
-    position: absolute;
-    bottom: 4em;
+    position: relative;
+    bottom: 5em;
 }
 
 .fa-facebook-square,
