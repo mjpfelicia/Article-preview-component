@@ -24,7 +24,7 @@ main {
 .box-container {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 5em;
 }
 
 .box-img-principal img {
@@ -88,13 +88,13 @@ h1 {
     display: none;
     justify-content: center;
     align-items: center;
-    height: 65px;
+    height: 70px;
     width: 86%;
     gap: 20px;
     border-radius: 0px 0px 10px 10px;
     background: var(--cor-azula-cinzentado-muito-escuro);
     position: absolute;
-    bottom: 45px;
+    bottom: 4em;
 }
 
 .fa-facebook-square,
@@ -147,8 +147,7 @@ h1 {
     }
     .dadosdocliente-p {
         margin-right: 10em;
-        width: 25%;
-        padding-right: 7em;
+        width: 30%;
     }
     .dadosdocliente-svg:hover {
         background: var(--cor-azula-cinzentado-muito-escuro);
@@ -165,9 +164,9 @@ h1 {
     .icons {
         align-self: center;
         position: absolute;
-        top: 25em;
+        top: 26em;
         right: 11em;
-        height: 40px;
+        height: 65px;
         width: 19%;
         border-radius: 10px;
     }
