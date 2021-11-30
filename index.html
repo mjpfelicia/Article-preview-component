@@ -2,57 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Frontend Mentor | Article preview component</title>
-
-
 </head>
 
 <body>
     <main>
         <div class="box-container">
-            <div class="box-img-principal">
-                <img src="./images/drawers.jpg" alt="jpg">
-            </div>
-            <div class="descricao">
-                <h1>
-                    Shift the overall look and feel by adding these wonderful touches to furniture in your home
-                </h1>
-                <p class="descricao-p">
-                    Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
-                </p>
-                <div class="dadosdocliente">
-                    <img class="dadosdocliente-img" src="./images/avatar-michelle.jpg" alt="jpg">
-                    <p class="dadosdocliente-p"> Michelle Appleton
-                        <span>28 Jun 2020</span>
+            <article class="box-conteudo">
+                <div class="box-img-principal" role="img"></div>
+                <div class="box-descricao">
+                    <a href="#">
+                        <h1 class="box-descricao-h1">
+                            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+                        </h1>
+                    </a>
+                    <p class="descricao-p">
+                        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
                     </p>
-                    <img class="dadosdocliente-svg" src="./images/icon-share.svg" alt="svg">
+                    <footer class="box-footer">
+                        <img class="author-img" src="images/avatar-michelle.jpg" alt="Michelle" />
+                        <div class="dadosdocliente">
+                            <p class="dadosdocliente-p">Michelle Appleton</p>
+                            <p class="dadosdocliente-date">28 Jun 2020</p>
+                        </div>
+                        <img class="dadosdocliente-svg" src="./images/icon-share.svg" alt="svg">
+                        <div class="icons box-icons">
+                            <span class="share-text">SHARE</span>
+                            <div class="share-icons">
+                                <a href="#"><img src="images/icon-facebook.svg" alt="Facebook" />
+                                </a>
+                                <a href="#"><img src="images/icon-twitter.svg" alt="Twitter" />
+                                </a>
+                                <a href="#"><img src="images/icon-pinterest.svg" alt="Pinterest" />
+                                </a>
+                            </div>
+                        </div>
+                    </footer>
                 </div>
-            </div>
-            <div class="icons">
-                <span class="conteudo-img-icon-span">
-                    Share
-                </span>
-                <a href="#">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-pinterest-p"></i>
-                </a>
-                <img class="dadosdocliente-svg" src="./images/icon-share2.svg" alt="svg">
-            </div>
-
+            </article>
         </div>
     </main>
-    <script src="https://kit.fontawesome.com/5b2656c990.js" crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
