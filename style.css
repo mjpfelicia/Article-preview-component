@@ -25,6 +25,7 @@ main {
 
 .box-container {
     position: relative;
+    width: 80%;
 }
 
 .box-conteudo {
