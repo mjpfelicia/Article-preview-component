@@ -38,7 +38,7 @@ main {
 }
 
 .box-img-principal {
-    width: 28.5rem;
+    width: 34%;
     flex-shrink: 0;
     background: url("./images/drawers.jpg");
     background-repeat: no-repeat;
